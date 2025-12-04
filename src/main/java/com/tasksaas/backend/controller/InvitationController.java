@@ -9,7 +9,6 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/invite")
-@CrossOrigin(origins = "*")
 public class InvitationController {
 
     @Autowired
